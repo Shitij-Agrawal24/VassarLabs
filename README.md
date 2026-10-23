@@ -17,7 +17,11 @@ The problem is not in this repository yet. It is pushed here at **11:05 IST** as
    git push -u origin main
    ```
 
-3. In your repository, go to **Settings → Collaborators → Add people** and add each GitHub account the coordinator gave you. They need at least read access.
+3. In your repository, go to **Settings → Collaborators → Add people** and add these four panel accounts (read access is enough):
+   - `shubhammouar`
+   - `saikoteshk`
+   - `RamMohan23`
+   - `yogesharroju`
 4. Check your environment:
 
    ```bash
