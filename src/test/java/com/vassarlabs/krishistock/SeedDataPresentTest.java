@@ -18,7 +18,8 @@ class SeedDataPresentTest {
     @ParameterizedTest
     @CsvSource(delimiter = '|', value = {
         "depots.csv          | depot_id,district,name",
-        "skus.csv            | sku,description,unit_kg",
+        "skus.csv            | sku,product,description,unit_kg",
+        "products.csv        | product,kg_per_acre",
         "schemes.csv         | scheme_id,season,opens_at,closes_at",
         "farmers.csv         | farmer_id,district,landholding_acres",
         "depot_stock.csv     | depot_id,sku,scheme_id,total",
